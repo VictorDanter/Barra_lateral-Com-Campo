@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.barratop{
+    background-color: #fec300;
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    border-bottom: 2px solid #353535 ;
+}
+.menuprincipal{
+    background-color: #FEA200;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    left: -230px;
+    transition: left 0.5s;
+}
+.menuprincipal .titulo{
+    padding-left: 50px;
+    padding-top: 8px;
+    border-bottom: 2px solid black;
+    line-height: 40px;
+}
+.menuprincipal ul{
+    list-style: none;
+}
+.menuprincipal ul li{
+    line-height: 30px;
+    border-bottom: 1px solid #353535;
+}
+.menuprincipal ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 18px;
+    display: block;
+
+}
+.menuprincipal ul li a:hover{
+    background-color: #0000002a;
+    transition: 0.3s;
+}
+
+.menuprincipal ul ul li a{
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 45px;
+    background-color: #353535;
+}
+.menuprincipal ul ul li a:hover{
+    background-color: #292929;
+}
+
+#direitos-asl{
+    padding-top: 330px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Sistema para abrir */
+
+.menuprincipal ul ul{
+    display: none;
+}
+.menuprincipal ul .itensfinanceiro.mostrar{
+    display: block;
+}
+.menuprincipal ul .itensfuncionarios.mostrar{
+    display: block;
+}
+.menuprincipal ul .itensobras.mostrar{
+    display: block;
+}
+/* victordanter */
+/* Sistema para abrir o menu */
+
+.btnabrir{
+    position: absolute;
+    left: 14px;
+    top: 13px;
+    border-radius:7px;
+    cursor: pointer;
+}
+.btnabrir:hover{
+    background-color: #da8a00;
+    transition: 0.3s;
+}
+.btnabrir span{
+    font-size: 40px;
+}
+.menuprincipal.mostrar{
+    left: 0;
+}
+.btnfechar{
+    position: absolute;
+    left: 195px;
+    border-radius: 6px;
+    top: 20px;
+    cursor: pointer;
+}
+.btnfechar:hover{
+    background-color: rgba(218, 51, 0, 0.555);
+    transition: 0.3s;
+}
+
+/* victordanter */
+/* configurações das setas */
+
+.menuprincipal ul li a span{
+    position: absolute;
+    left: 198px;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.menuprincipal ul li a span.gira{
+    transform: rotate(90deg);
+}
+
+
+#conteudo{
+    padding-top: 86px;
+    padding-left: 20px;
+
+}
+
+.menuinicio{
+    text-align: center;
+}
+
+.updateslist ul ul li{
+    padding-left: 20px;
+    list-style: none;
+    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Lateral</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <nav class = 'barratop'>
+        <div class='btnabrir'>
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+    </nav>
+    
+    <nav class="menuprincipal">
+        
+        <div class="titulo"><img src="seu-logo-aqui-1.png" width="90px"><span class="material-symbols-outlined btnfechar">close</span></div>
+        <ul>
+            <li><a href="#">Pagina inicial</a></li>
+            <li><a href="#">Agenda Rapida</a></li>
+            <li><a href="#" class="financeiro">Financeiro<span class="material-symbols-outlined seta1">arrow_right</span></a></li>
+                <ul class="itensfinanceiro">
+                    <li><a href="#">Adicionar Despesas</a></li>
+                    <li><a href="#">Saldo a Receber</a></li>
+                    <li><a href="#">Saldo em Caixa</a></li>
+                    <li><a href="#">Vales</a></li>
+                    <li><a href="#">Obras</a></li>
+                    <li><a href="#">Gerar Recibos</a></li>
+                </ul>
+            <li><a href="#" class="funcionarios">Funcionários<span class="material-symbols-outlined seta2">arrow_right</span></a></li>
+                <ul class="itensfuncionarios">
+                    <li><a href="#">Adicionar Funcionário</a></li>
+                    <li><a href="#">Remover Funcionário</a></li>
+                </ul>
+            <li><a href="#" class="obras">Obras<span class="material-symbols-outlined seta3">arrow_right</span></a></li>
+                <ul class="itensobras">
+                    <li><a href="#">Em andamento</a></li>
+                    <li><a href="#">Transferir Operario</a></li>
+                </ul>
+            <li><a href="#">Estoque</a></li>
+            <li><a href="#">Gerar Orçamento</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="conteudo">
+        <!-- Conteudo deve ser inserido aqui -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
